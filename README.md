@@ -1,13 +1,13 @@
 # VyprVPN-Router-App-Connection-Watchdog-Auto-Reconnect-and-Connect-on-Startup
 
-##
-# Add the following under Administator > Scripts > WAN UP
+## 1. Set all the values in the - START - VARIABLES TO SET - section
+## 2. Add the following under Administator > Scripts > WAN UP
+## 3. Reboot router and see it work
 
 ```
 #!/bin/sh
 
 #### START - VARIABLES TO SET ####
-
 # set router login username
 USER=your-router-admin-username
 # set router login password
